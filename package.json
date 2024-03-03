@@ -3,15 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
     "test:login:success": "node e2e-tests/successfulEmailLogin.test.js",
     "test:login:failure": "node e2e-tests/failedEmailLogin.test.js",
     "test:oauth:google": "node e2e-tests/googleOAuthLogin.test.js",
     "test:oauth:facebook": "node e2e-tests/facebookOAuthLogin.test.js",
-    "test:e2e": "echo 'Running all e2e tests...' && npm run test:login:success && npm run test:login:failure && npm run test:oauth:google && npm run test:oauth:facebook"
+    "test:e2e": "echo 'Running all e2e tests...' && npm run test:login:success && npm run test:login:failure && npm run test:oauth:google && npm run test:oauth:facebook",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@radix-ui/react-label": "^2.0.2",
