@@ -12,7 +12,6 @@
     "test:oauth:google": "node e2e-tests/googleOAuthLogin.test.js",
     "test:oauth:facebook": "node e2e-tests/facebookOAuthLogin.test.js",
     "test:e2e": "echo 'Running all e2e tests...' && npm run test:login:success && npm run test:login:failure && npm run test:oauth:google && npm run test:oauth:facebook"
-  
   },
   "dependencies": {
     "@radix-ui/react-label": "^2.0.2",
